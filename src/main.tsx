@@ -4,6 +4,7 @@ import './index.css'
 import { BrowserRouter } from 'react-router-dom'
 import AppRoutes from './AppRoutes'
 import { GamesProvider } from './context/GamesContext'
+import { Analytics } from "@vercel/analytics/react"
 
 
 createRoot(document.getElementById('root')!).render(
@@ -11,6 +12,7 @@ createRoot(document.getElementById('root')!).render(
     <GamesProvider>
     <BrowserRouter>
       <AppRoutes/>
+      <Analytics/>
     </BrowserRouter>
     </GamesProvider>
   </StrictMode>,

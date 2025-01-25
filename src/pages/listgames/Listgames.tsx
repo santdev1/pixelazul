@@ -33,10 +33,10 @@ const Listgames = () => {
   return (
     <main className="text-white font-ro bg-blue-dark">
       <Header />
-      <section className="h-[20dvh] bg-[#140F23] flex justify-center items-center text-center">
+      <section className="h-[40dvh] md:h-[20dvh] bg-[#140F23] flex justify-center items-center text-center">
         <div>
-          <h1 className="font-ow text-6xl">TODOS OS JOGOS</h1>
-          <p className="text-2xl">Explore nossa biblioteca com mais de 100 jogos</p>
+          <h1 className="font-ow text-5xl md:text-6xl">TODOS OS JOGOS</h1>
+          <p className="md:text-2xl">Explore nossa biblioteca com mais de 100 jogos</p>
         </div>
       </section>
       <section className="mx-[5%]">

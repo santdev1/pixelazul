@@ -12,9 +12,9 @@ const Header = () => {
         </div>
       </section>
       <nav className="bg-blue-light text-white flex justify-center items-center h-4/10">
-        <Link className="ml-20 mr-20 hover:text-blue-dark" to="/">HOME</Link>
-        <Link className="ml-20 mr-20 hover:text-blue-dark" to="/">SOBRE NÓS</Link>
-        <Link className="ml-20 mr-20 hover:text-blue-dark" to={`/listgames/${"pc"}`}>JOGOS</Link>
+        <Link className="mx-6 hover:text-blue-dark" to="/">HOME</Link>
+        <Link className="mx-6 hover:text-blue-dark" to="/">SOBRE NÓS</Link>
+        <Link className="mx-6 hover:text-blue-dark" to={`/listgames/${"pc"}`}>JOGOS</Link>
       </nav>
     </header>
   );

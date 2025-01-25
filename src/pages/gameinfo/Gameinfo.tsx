@@ -23,11 +23,11 @@ const Gameinfo = () => {
   ];
 
   return (
-    <main className="text-white font-ro bg-blue-dark min-h-screen">
+    <main className="text-white font-ro bg-blue-dark ">
       <Header />
-      <section className="h-[85dvh] md:h-[65dvh] flex flex-col md:flex-row p-4 md:p-8 gap-6 items-center">
+      <section className="h-[120dvh] sm:h-[65dvh] flex flex-col md:flex-row p-4 md:p-8 gap-6 items-center">
 
-        <article className="md:w-1/2 flex justify-center items-center">
+        <article className="w-10/10 md:w-1/2 flex justify-center items-center">
           <img
             className="w-full max-w-md h-auto rounded-lg shadow-lg"
             src={game.image}
@@ -36,7 +36,7 @@ const Gameinfo = () => {
         </article>
 
 
-        <article className="md:w-1/2 space-y-10">
+        <article className="w-10/10 md:w-1/2 space-y-10">
         <div> 
             <h1 className="font-ow text-blue-light text-6xl mb-4">{game.title}</h1>
             <p className="text-gray-300">{game.description}</p>
@@ -57,7 +57,7 @@ const Gameinfo = () => {
             </div>
           </div>
       
-          <div className="space-y-4">
+          <div className="space-y-10">
             <div className="flex flex-wrap gap-4">
               {downloadLinks.map((link, index) => (
                 <a
@@ -75,7 +75,7 @@ const Gameinfo = () => {
         </article>
       </section>
 
-      <section className="h-[50dvh]p-4 md:p-8">
+      <section className="h-[100dvh] md:h-[60dvh] flex items-center">
         <GamesCarousel
           speed={2000}
           type={"feature"}

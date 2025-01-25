@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "title": "Super Adventure World",
+    "description": "Explore vast worlds, solve puzzles, and defeat powerful bosses in this thrilling adventure game.",
+    "image": "https://placehold.co/400x200?text=Super+Adventure+World",
+    "type": "pc",
+    "IsFeature": true,
+    "requisitos_min": "Windows 7, 2 GB RAM, Intel Core i3, 2 GB HDD, DirectX 11",
+    "requisitos_rec": "Windows 10, 4 GB RAM, Intel Core i5, 4 GB HDD, DirectX 12"
+  },
+  {
+    "id": 2,
+    "title": "Space Odyssey",
+    "description": "Journey through the cosmos and uncover ancient alien secrets in this sci-fi exploration game.",
+    "image": "https://placehold.co/400x200?text=Space+Odyssey",
+    "type": "mobile",
+    "IsFeature": false,
+    "requisitos_min": "Android 8.0, 3 GB RAM, Dual-Core 1.8 GHz, 500 MB Storage",
+    "requisitos_rec": "Android 10.0, 4 GB RAM, Quad-Core 2.5 GHz, 1 GB Storage"
+  },
+  {
+    "id": 3,
+    "title": "Mystic Forest",
+    "description": "A mystical adventure through an enchanted forest full of magical creatures and hidden treasures.",
+    "image": "https://placehold.co/400x200?text=Mystic+Forest",
+    "type": "pc",
+    "IsFeature": true,
+    "requisitos_min": "Windows 7, 4 GB RAM, Intel Core i3, 3 GB HDD, DirectX 11",
+    "requisitos_rec": "Windows 10, 8 GB RAM, Intel Core i7, 6 GB HDD, DirectX 12"
+  },
+  {
+    "id": 4,
+    "title": "City Builder Tycoon",
+    "description": "Build and manage your own city from the ground up in this addictive simulation game.",
+    "image": "https://placehold.co/400x200?text=City+Builder+Tycoon",
+    "type": "mobile",
+    "IsFeature": false,
+    "requisitos_min": "iOS 11.0, 3 GB RAM, Dual-Core 1.5 GHz, 400 MB Storage",
+    "requisitos_rec": "iOS 14.0, 4 GB RAM, Quad-Core 2.3 GHz, 700 MB Storage"
+  },
+  {
+    "id": 5,
+    "title": "Pirate's Treasure Hunt",
+    "description": "Embark on a pirate adventure to find lost treasures and battle enemies on the high seas.",
+    "image": "https://placehold.co/400x200?text=Pirate's+Treasure+Hunt",
+    "type": "pc",
+    "IsFeature": true,
+    "requisitos_min": "Windows 8, 4 GB RAM, Intel Core i5, 2 GB HDD, DirectX 11",
+    "requisitos_rec": "Windows 11, 8 GB RAM, Intel Core i7, 4 GB HDD, DirectX 12"
+  },
+  {
+    "id": 6,
+    "title": "Zombie Apocalypse",
+    "description": "Survive the undead hordes in a post-apocalyptic world and make difficult choices for survival.",
+    "image": "https://placehold.co/400x200?text=Zombie+Apocalypse",
+    "type": "mobile",
+    "IsFeature": false,
+    "requisitos_min": "Android 9.0, 2 GB RAM, Dual-Core 1.6 GHz, 600 MB Storage",
+    "requisitos_rec": "Android 11.0, 4 GB RAM, Octa-Core 2.2 GHz, 1 GB Storage"
+  },
+  {
+    "id": 7,
+    "title": "Fantasy Racing League",
+    "description": "Race magical creatures and vehicles in a high-speed fantasy racing competition.",
+    "image": "https://placehold.co/400x200?text=Fantasy+Racing+League",
+    "type": "pc",
+    "IsFeature": true,
+    "requisitos_min": "Windows 7, 4 GB RAM, Intel Core i3, 3 GB HDD, DirectX 11",
+    "requisitos_rec": "Windows 10, 8 GB RAM, Intel Core i5, 5 GB HDD, DirectX 12"
+  },
+  {
+    "id": 8,
+    "title": "Underwater Expedition",
+    "description": "Dive deep into the ocean to discover unknown species and uncover ancient underwater mysteries.",
+    "image": "https://placehold.co/400x200?text=Underwater+Expedition",
+    "type": "mobile",
+    "IsFeature": false,
+    "requisitos_min": "iOS 12.0, 2 GB RAM, Dual-Core 1.6 GHz, 500 MB Storage",
+    "requisitos_rec": "iOS 14.0, 4 GB RAM, Quad-Core 2.0 GHz, 1 GB Storage"
+  },
+  {
+    "id": 9,
+    "title": "Robot Wars",
+    "description": "Battle in an arena with customizable robots in this action-packed multiplayer combat game.",
+    "image": "https://placehold.co/400x200?text=Robot+Wars",
+    "type": "pc",
+    "IsFeature": true,
+    "requisitos_min": "Windows 8, 4 GB RAM, Intel Core i5, 3 GB HDD, DirectX 11",
+    "requisitos_rec": "Windows 10, 8 GB RAM, Intel Core i7, 5 GB HDD, DirectX 12"
+  },
+  {
+    "id": 10,
+    "title": "Dragon's Quest",
+    "description": "Embark on a quest to defeat dragons and become a legendary hero in a medieval fantasy world.",
+    "image": "https://placehold.co/400x200?text=Dragon's+Quest",
+    "type": "mobile",
+    "IsFeature": true,
+    "requisitos_min": "Android 8.0, 3 GB RAM, Quad-Core 1.8 GHz, 700 MB Storage",
+    "requisitos_rec": "Android 10.0, 4 GB RAM, Octa-Core 2.4 GHz, 1.2 GB Storage"
+  },
+  {
+    "id": 11,
+    "title": "Knight's Battle",
+    "description": "Fight legendary knights in epic battles in a medieval action game.",
+    "image": "https://via.placeholder.com/400x200.png?text=Knight's+Battle",
+    "type": "pc",
+    "IsFeature": false,
+    "requisitos_min": "Windows 7, 4 GB RAM, Intel Core i3, GTX 650",
+    "requisitos_rec": "Windows 10, 8 GB RAM, Intel Core i5, GTX 960"
+  },
+  {
+    "id": 12,
+    "title": "Rocket Jumpers",
+    "description": "Race against opponents with futuristic jetpacks in this fast-paced action game.",
+    "image": "https://via.placeholder.com/400x200.png?text=Rocket+Jumpers",
+    "type": "mobile",
+    "IsFeature": true,
+    "requisitos_min": "Android 8.0, 3 GB RAM, Snapdragon 636",
+    "requisitos_rec": "Android 10.0, 6 GB RAM, Snapdragon 845"
+  },
+  {
+    "id": 13,
+    "title": "Dungeon Explorer",
+    "description": "Explore dark dungeons, find hidden treasures, and battle monsters in this RPG.",
+    "image": "https://via.placeholder.com/400x200.png?text=Dungeon+Explorer",
+    "type": "pc",
+    "IsFeature": true,
+    "requisitos_min": "Windows 7, 4 GB RAM, Intel Core i3, GTX 750",
+    "requisitos_rec": "Windows 10, 8 GB RAM, Intel Core i7, GTX 1060"
+  },
+  {
+    "id": 14,
+    "title": "Sky Pirates",
+    "description": "Engage in aerial combat as a sky pirate in this high-flying action game.",
+    "image": "https://via.placeholder.com/400x200.png?text=Sky+Pirates",
+    "type": "mobile",
+    "IsFeature": false,
+    "requisitos_min": "Android 7.0, 2 GB RAM, MediaTek MT6739",
+    "requisitos_rec": "Android 9.0, 4 GB RAM, Snapdragon 710"
+  },
+  {
+    "id": 15,
+    "title": "Virtual Farming",
+    "description": "Grow crops, raise animals, and manage your own farm in this relaxing simulation game.",
+    "image": "https://via.placeholder.com/400x200.png?text=Virtual+Farming",
+    "type": "pc",
+    "IsFeature": true,
+    "requisitos_min": "Windows 8, 4 GB RAM, Intel Core i3, Intel HD Graphics",
+    "requisitos_rec": "Windows 10, 8 GB RAM, Intel Core i5, GTX 750"
+  },
+  {
+    "id": 16,
+    "title": "Candy Blitz",
+    "description": "Combine doces coloridos para ganhar pontos e completar desafios neste divertido jogo de quebra-cabeça.",
+    "image": "https://via.placeholder.com/400x200.png?text=Candy+Blitz",
+    "type": "mobile",
+    "IsFeature": true,
+    "requisitos_min": "Android 6.0, 2 GB RAM, Snapdragon 450",
+    "requisitos_rec": "Android 10.0, 4 GB RAM, Snapdragon 720"
+  },
+  {
+    "id": 17,
+    "title": "Tower Defense Heroes",
+    "description": "Defenda sua base de ondas de inimigos construindo torres estratégicas neste jogo de estratégia.",
+    "image": "https://via.placeholder.com/400x200.png?text=Tower+Defense+Heroes",
+    "type": "mobile",
+    "IsFeature": false,
+    "requisitos_min": "Android 6.0, 2 GB RAM, MediaTek MT6737",
+    "requisitos_rec": "Android 9.0, 4 GB RAM, Snapdragon 665"
+  },
+  {
+    "id": 18,
+    "title": "Pixel Adventure Quest",
+    "description": "Explore masmorras pixeladas, colete tesouros e derrote inimigos neste RPG clássico.",
+    "image": "https://via.placeholder.com/400x200.png?text=Pixel+Adventure+Quest",
+    "type": "mobile",
+    "IsFeature": true,
+    "requisitos_min": "Android 6.0, 2 GB RAM, Mali-T720",
+    "requisitos_rec": "Android 8.0, 4 GB RAM, Adreno 610"
+  },
+  {
+    "id": 19,
+    "title": "Speed Racer Turbo",
+    "description": "Compita em corridas de alta velocidade com gráficos incríveis e controles responsivos.",
+    "image": "https://via.placeholder.com/400x200.png?text=Speed+Racer+Turbo",
+    "type": "mobile",
+    "IsFeature": false,
+    "requisitos_min": "Android 5.0, 2 GB RAM, PowerVR GE8320",
+    "requisitos_rec": "Android 10.0, 4 GB RAM, Mali-G52"
+  },
+  {
+    "id": 20,
+    "title": "Mystery Match",
+    "description": "Resolva mistérios intrigantes enquanto combina peças neste jogo de combinação viciante.",
+    "image": "https://via.placeholder.com/400x200.png?text=Mystery+Match",
+    "type": "mobile",
+    "IsFeature": true,
+    "requisitos_min": "Android 6.0, 2 GB RAM, Snapdragon 425",
+    "requisitos_rec": "Android 8.0, 4 GB RAM, Snapdragon 630"
+  } 
+]

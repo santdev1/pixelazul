@@ -17,7 +17,7 @@ const Homepage = () => {
       <section className="h-[60dvh] flex items-center">
         <GamesCarousel
           speed={2000}
-          type={"feature"}
+          type={"pc"}
           title={"JOGOS RECOMENDADOS"}
           subtitle="Os jogos mais procurados nos mundos dos games"
           games={featuredGames} 

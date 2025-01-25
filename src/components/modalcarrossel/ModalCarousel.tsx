@@ -1,16 +1,28 @@
-import banners from "../../share/banners";
 import { Carousel, CarouselContent, CarouselItem } from "../ui/carousel";
 import Autoplay from "embla-carousel-autoplay"
-import { useEffect, useState } from "react";
+import banner from '../../assets/images/banner-header.png'
+import banner2 from '../../assets/images/banner-header2.png'
 
 
 const ModalCarousel = () => {
-   
-    const [image, setImage] = useState([])
-    useEffect(()=>{
-        setImage(banners)
-    },[])
-
+ 
+  const banners = [
+      {
+          id: 1,
+          url: banner
+      },
+      {
+          id: 2,
+          url: banner2
+      },
+      {
+          id: 3,
+          url: banner
+      },
+  
+  ]
+  
+  
   return (
     <Carousel plugins={[
         Autoplay({
@@ -18,7 +30,7 @@ const ModalCarousel = () => {
         }),
       ]} className="h-full">
         <CarouselContent>
-      {image.map((banner) => (
+      {banners.map((banner) => (
         <CarouselItem key={banner.id}> 
           <img src={banner.url} alt={`Banner ${banner.id}`}  className="w-full h-full object-cover"/>
         </CarouselItem>

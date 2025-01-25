@@ -3,6 +3,7 @@ import Header from "../../components/header/Header";
 import Gamelist from "../../components/gamelist/Gamelist";
 import { useGames } from "../../context/GamesContext";
 import { useEffect, useMemo } from "react";
+import ErrorPage from "../error/Error";
 
 const Listgames = () => {
   const { category } = useParams(); 
@@ -12,7 +13,7 @@ const Listgames = () => {
   useEffect(() => {
     if (!category || (category !== "mobile" && category !== "pc")) {
       navigate("/error");
-    }
+    } 
   }, [category, navigate]);
 
   const filteredGames = useMemo(() => {
@@ -26,7 +27,7 @@ const Listgames = () => {
   }
 
   if (error) {
-    return navigate("/error");
+    return <ErrorPage/>
   }
 
   return (
